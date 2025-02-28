@@ -1,6 +1,6 @@
 # Telegram Message Forwarder
 
-A Python script designed to list chat IDs and forward entire direct messages, channels, and more.
+A Python bot to list Telegram chat IDs and forward entire DM, Channels, and more.
 
 ## Features
 - Get a list of all your chats and their IDs.
