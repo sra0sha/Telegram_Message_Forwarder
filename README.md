@@ -1,20 +1,29 @@
 # Telegram Message Forwarder
 
-A Python bot to list Telegram chat IDs and forward entire DM, Channels, and more.
+A Python script to forward messages from one Telegram chat to another using the Telethon library. This script also includes a feature to list all your Telegram chats and save their IDs for easy reference.
 
 ## Features
-- Get a list of all your chats and their IDs.
-- Forward messages from a source chat to a target chat.
-- Automatically resume forwarding from the last forwarded message.
-- Error handler to not get limited.
-- Adjustable forwarding speed time (recommended to leave it on 2 by default).
 
-## Requirements
-- Python 3.7+
-- Telethon library (`pip install telethon`)
+- Chat List Generation: Retrieve and save a list of all your Telegram chats (groups, channels, and private chats) along with their IDs.
+- Message Forwarding: Forward messages from a source chat to a target chat.
+- Resume Support: Automatically resumes forwarding from the last forwarded message ID, even if the script is interrupted.
+- Error Logging: Logs errors to a file for debugging.
+- Rate Limit Handling: Automatically handles Telegram's rate limits and waits for the required cooldown period.
+- Forwarding Speed: Adjustable forwarding speed time (recommended to leave it on 2 seconds per message by default).
 
-### Steps to Run
-1. **Clone the repository** to your local machine:
+## Prerequisites
+
+Before running the script, ensure you have the following:
+
+1. Python 3.7 or higher installed on your system.
+2. A Telegram API ID and API Hash. You can obtain these by creating an app on [my.telegram.org](https://my.telegram.org).
+3. The Telethon library installed. You can install it using pip:
+
+   ```bash
+   pip install telethon
+
+## Steps to Run
+1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/sra0sha/Telegram_Message_Forwarder.git
 2. Navigate to the project directory:
