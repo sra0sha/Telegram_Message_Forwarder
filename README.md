@@ -1,6 +1,6 @@
 # Telegram Message Forwarder
 
-A Python script to forward messages from one Telegram chat to another using the Telethon library. This script also includes a feature to list all your Telegram chats and save their IDs for easy reference.
+A Python script to forward messages from a Direct Message/Channel/Group to another using the Telethon library. This script also includes a feature to list all your Telegram chats and save their IDs for easy reference.
 
 ## Features
 
@@ -23,6 +23,7 @@ Before running the script, ensure you have the following:
    pip install telethon
 
 ## Steps to Run
+Open CMD on your PC and copy-paste the steps bellow
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/sra0sha/Telegram_Message_Forwarder.git
